@@ -1,2 +1,2 @@
-# 2023-24-CompSci-Projects
-Random projects assigned for computer science class.
+# Interview Questions
+Some interview-esque problems done to keep me busy, December 2023-January 2024.
