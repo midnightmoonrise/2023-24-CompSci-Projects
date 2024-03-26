@@ -68,19 +68,16 @@ def calcwinner(moves):
         print("The sailboat cheerily capsizes and turtles, dumping the rock into the water and letting it sink to the bottom of the lake.")
         return 0
     elif moves[1] == "rock" and moves[0] == "scissors":
-        print("The good old-fashioned rock beats scissors. A large, gray rock \
-            smashed a pair of scissors into oblivion.")
+        print("The good old-fashioned rock beats scissors. A large, gray rock smashed a pair of scissors into oblivion.")
         return 1
     elif moves[1] == "rock" and moves[0] == "potato":
-        print("A rock came sailing out of nowhere and splattered the starch of the potato everywhere. \
-              What a mess!")
+        print("A rock came sailing out of nowhere and splattered the starch of the potato everywhere. What a mess!")
         return 1
     elif moves[1] == "scissors" and moves[0] == "paper":
         print("The good old-fashioned scissors beats paper. The scissors viciously slice the paper to bits.")
         return 1
     elif moves[1] == "scissors" and moves[0] == "sailboat":
-        print("A pair of scissors - incredibly sharp ones - wreaks havoc on a sailboat! It shreds \
-              the sails and splices the forestays.")
+        print("A pair of scissors - incredibly sharp ones - wreaks havoc on a sailboat! It shreds the sails and splices the forestays.")
         return 1
     elif moves[1] == "paper" and moves[0] == "rock":
         print("Paper beats rock. It covers the rock on all sides, effectively blinding it.")
@@ -89,20 +86,16 @@ def calcwinner(moves):
         print("Paper blinds the potato by completely wrapping it in an opaque sheet of... paper.")
         return 1
     elif moves[1] == "potato" and moves[0] == "scissors":
-        print("A potato sails through the air and splatters all over the scissors, getting gunk stuck \
-              between its blades and rendering the scissors useless.")
+        print("A potato sails through the air and splatters all over the scissors, getting gunk stuck between its blades and rendering the scissors useless.")
         return 1
     elif moves[1] == "potato" and moves[0] == "sailboat":
-        print("The potato, unfortunately, does not fit like a tennis ball in the back of the sailboat! \
-              Water drains in and the boat sinks.")
+        print("The potato, unfortunately, does not fit like a tennis ball in the back of the sailboat! Water drains in and the boat sinks.")
         return 1
     elif moves[1] == "sailboat" and moves[0] == "paper":
-        print("Upon setting sail, a wave of water splashes into the boat, leaving the paper inside \
-              wet and limp.")
+        print("Upon setting sail, a wave of water splashes into the boat, leaving the paper inside wet and limp.")
         return 1
     elif moves[1] == "sailboat" and moves[0] == "rock":
-        print("The sailboat cheerily capsizes, dumping the rock into the water and letting it sink to the bottom \
-              of the lake.")
+        print("The sailboat cheerily capsizes, dumping the rock into the water and letting it sink to the bottom of the lake.")
         return 1
     else:
         print("It appears two identical things have tried to fight, resulting in a tie.")
